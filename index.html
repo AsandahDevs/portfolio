@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Asanda Majola — Front-end developer and product-minded builder from Durban, South Africa." />
+  <title>Asanda Majola — Front-end Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Go to home">AM<span>_</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">about</a><a href="#work">work</a><a href="#experience">experience</a>
+    </nav>
+    <a class="availability" href="mailto:noelmajola@gmail.com"><i></i> available for work</a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell reveal">
+      <p class="eyebrow">$ whoami <span>— 2026</span></p>
+      <div class="hero-grid">
+        <div>
+          <p class="intro">Hello, I’m</p>
+          <h1>Asanda<br><em>Majola.</em></h1>
+          <p class="role">Front-end developer <span class="slash">/</span> <span id="typed-role">Ionic app developer</span><b class="caret">_</b></p>
+        </div>
+        <aside class="terminal-card">
+          <div class="terminal-top"><span></span><span></span><span></span><small>profile.json</small></div>
+          <pre><code>{
+  <span class="key">"location"</span>: <span class="value">"Durban, South Africa"</span>,
+  <span class="key">"focus"</span>: [<span class="value">"web"</span>, <span class="value">"mobile"</span>],
+  <span class="key">"status"</span>: <span class="success">"building thoughtfully"</span>
+}</code></pre>
+        </aside>
+      </div>
+      <div class="hero-footer"><a class="button" href="#work">Explore selected work <span>↘</span></a><p>Scroll to inspect <span>↓</span></p></div>
+    </section>
+
+    <section class="about shell section reveal" id="about">
+      <div class="section-label">01 / about</div>
+      <div class="about-copy">
+        <h2>I turn complex ideas into <em>useful</em> digital experiences.</h2>
+        <p>I’m a passionate software developer with over two years of experience designing and building innovative, user-centric digital solutions. My expertise in Angular, React, React Native, Ionic Framework, and TypeScript helps me create robust, scalable applications with sleek, mobile-friendly interfaces.</p>
+        <p>I thrive on solving complex challenges and continually seek new technologies to enhance efficiency and elevate the user experience. With a proven record of delivering high-quality cross-platform solutions, I’m dedicated to transforming ideas into impactful digital realities.</p>
+      </div>
+      <div class="toolbelt"><span>TypeScript</span><span>React</span><span>React Native</span><span>Angular</span><span>JavaScript</span><span>CSS</span></div>
+    </section>
+
+    <section class="work shell section" id="work">
+      <div class="section-heading reveal"><div class="section-label">02 / selected work</div><p>A collection of products built across web, mobile, commerce, and social tooling.</p></div>
+      <div class="project-list">
+        <article class="project featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-content"><p class="project-type">Mobile product / 2025—now</p><h3>stock<span>0</span></h3><p class="project-description">A grocery deals aggregator that brings promotions from South Africa’s major retailers into one location-aware mobile experience.</p><ul class="tags"><li>React Native</li><li>Expo</li><li>TypeScript</li><li>Maps</li></ul><a href="https://github.com/AsandahDevs/stockO-UI" target="_blank" rel="noreferrer">View repository <span>↗</span></a></div>
+          <div class="project-visual phone-stack"><img src="assets/stock0-home.png" alt="Stock0 grocery application home screen" /><img src="assets/stock0-chat.png" alt="Stock0 assistant chat screen" /></div>
+        </article>
+        <article class="project project-row reveal">
+          <div class="project-number">02</div><div class="project-content"><p class="project-type">SaaS platform / 2025—now</p><h3>Simptool</h3><p class="project-description">A social media moderation platform where teams connect accounts, set rules, and manage automated comment classification.</p><ul class="tags"><li>React</li><li>Vite</li><li>TypeScript</li><li>Redux</li></ul></div><a class="project-link" href="https://github.com/AsandahDevs/simptool-ui" target="_blank" rel="noreferrer" aria-label="View Simptool repository">↗</a>
+        </article>
+        <article class="project project-row reveal">
+          <div class="project-number">03</div><div class="project-content"><p class="project-type">E-commerce / 2023</p><h3>Men Cave</h3><p class="project-description">A focused e-commerce experience designed around a distinct lifestyle customer and product discovery.</p><ul class="tags"><li>Angular</li><li>TypeScript</li><li>MDB</li><li>REST API</li></ul></div><a class="project-link" href="https://github.com/AsandahDevs/men-cave" target="_blank" rel="noreferrer" aria-label="View Men Cave repository">↗</a>
+        </article>
+        <article class="project project-row reveal">
+          <div class="project-number">04</div><div class="project-content"><p class="project-type">E-commerce SPA / 2022</p><h3>Amabele</h3><p class="project-description">A React single-page storefront demonstrating an intuitive path from product discovery to transaction.</p><ul class="tags"><li>React</li><li>React Router</li><li>Bootstrap</li><li>Node</li></ul></div><a class="project-link" href="https://asandahdevs.github.io/Amabele/" target="_blank" rel="noreferrer" aria-label="Open Amabele live site">↗</a>
+        </article>
+        <article class="project project-row reveal">
+          <div class="project-number">05</div><div class="project-content"><p class="project-type">UI recreation / 2022</p><h3>Starbucks Clone</h3><p class="project-description">A component-driven recreation of the South African Starbucks experience, structured as a smooth React single-page app.</p><ul class="tags"><li>React</li><li>React Router</li><li>React Bootstrap</li></ul></div><a class="project-link" href="https://asandahdevs.github.io/starbucks-clone/" target="_blank" rel="noreferrer" aria-label="Open Starbucks Clone live site">↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience shell section reveal" id="experience">
+      <div class="section-label">03 / experience</div>
+      <div class="experience-intro"><h2>Building products that are <em>useful in the real world.</em></h2><p>At Barrows, I work on enterprise and field-facing applications that connect people to critical retail and operational workflows.</p></div>
+      <div class="career-timeline">
+        <article><p class="career-date">Nov 2023 — Present</p><div><p class="project-type">Barrows / Full-time / On-site</p><h3>Front-end developer <span>/</span> Ionic app developer</h3><p>Building and maintaining user interfaces for in-house enterprise resource planning software that bridges users and SAGE. Maintaining a business mobile app used by field agents conducting retail-unit audits.</p><ul class="tags"><li>Angular</li><li>Ionic</li><li>HTML5</li><li>TypeScript</li></ul></div></article>
+        <article><p class="career-date">Dec 2022 — Oct 2023</p><div><p class="project-type">Barrows / Internship</p><h3>Frontend Developer</h3><p>Contributed client-side development to an in-house web application that acts as a user-friendly layer over the SAGE system, improving interface design and client-facing workflows.</p><ul class="tags"><li>HTML5</li><li>Code review</li><li>Angular</li></ul></div></article>
+        <article><p class="career-date">Nov 2022 — Dec 2022</p><div><p class="project-type">Barrows / Internship</p><h3>Project Assistant</h3><p>Assisted with administration of client accounts operating in the retail sector.</p><ul class="tags"><li>Microsoft Excel</li></ul></div></article>
+      </div>
+      <div class="education"><p class="project-type">Education</p><div><h3>University of KwaZulu-Natal</h3><p>Bachelor of Business Administration — BBA, Business Administration, Management and Operations</p></div></div>
+    </section>
+
+    <section class="contact shell reveal" id="contact">
+      <p class="eyebrow">$ initiate_contact</p><h2>Let’s build something<br><em>worth using.</em></h2><a class="email" href="mailto:noelmajola@gmail.com">noelmajola@gmail.com <span>↗</span></a>
+      <div class="contact-links"><a href="https://github.com/AsandahDevs" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/asanda-majola-738067186" target="_blank" rel="noreferrer">LinkedIn ↗</a><span>© <span id="year"></span> Asanda Majola</span></div>
+    </section>
+  </main>
+  <div class="command-hint">Press <kbd>⌘</kbd><kbd>K</kbd> to navigate</div>
+  <dialog class="command-menu" id="command-menu"><form method="dialog"><div class="command-title"><span>go to</span><button aria-label="Close command menu">×</button></div><a href="#about">01 <span>About</span></a><a href="#work">02 <span>Selected work</span></a><a href="#experience">03 <span>Experience</span></a><a href="#contact">04 <span>Contact</span></a></form></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
